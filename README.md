@@ -142,7 +142,7 @@ QDRANT_URL=http://localhost:6333
 OLLAMA_BASE_URL=http://localhost:11434
 ```
 
-Load variables in code using `python-dotenv`:
+Load variables in code using `python-dotenv` (if you want):
 
 ```python
 from dotenv import load_dotenv
@@ -195,7 +195,7 @@ Example payload:
 ```json
 {
   "pdf_path": "pdf/dracula.pdf",
-  "source_id": "dracula_pdf"
+  "source_id": "dracula_pdf" (optional)
 }
 ```
 
@@ -226,7 +226,7 @@ Returns top-k relevant context and a generated answer:
 
 ```json
 {
-  "answer": "Dracula is a fictional vampire who resides in Transylvania...",
+  "answer": "Dracula is a vampire who resides in Transylvania...",
   "sources": ["dracula_pdf"],
   "num_contexts": 5
 }
