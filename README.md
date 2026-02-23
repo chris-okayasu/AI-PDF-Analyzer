@@ -256,3 +256,4 @@ Returns top-k relevant context and a generated answer:
 - Paths to PDFs must be valid.
 - Designed for local execution with sensitive data remaining on your machine.
 - Inngest supports scalable workflows with retries, queues, and cron jobs.
+

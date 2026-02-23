@@ -32,6 +32,7 @@ Thumbs.db
 
 # Qdrant local storage
 qdrant_storage/
+uploads/
 
 # Logs
 logs/
@@ -46,3 +47,4 @@ htmlcov/
 # Ollama / temp data (if any)
 *.tmp
 *.temp
+
