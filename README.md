@@ -257,3 +257,14 @@ Returns top-k relevant context and a generated answer:
 - Designed for local execution with sensitive data remaining on your machine.
 - Inngest supports scalable workflows with retries, queues, and cron jobs.
 
+#Views
+
+## Server Side (dev)
+<img width="1346" height="363" alt="Screenshot 2026-02-23 at 21 20 06" src="https://github.com/user-attachments/assets/7e1223e9-f411-487a-87ae-613fc76b2f38" />
+
+## FrontEnd (simple desing since is not the focus)
+- Uploading and ingesting a pdf
+<img width="1136" height="605" alt="Screenshot 2026-02-23 at 21 25 32" src="https://github.com/user-attachments/assets/d3ee4b43-8d11-422d-ba30-1d65ab2a5d2a" />
+
+- AI Questions
+<img width="1089" height="722" alt="Screenshot 2026-02-23 at 21 13 04" src="https://github.com/user-attachments/assets/479e27ed-e2d9-4450-b5a8-c00ca01aa071" />
