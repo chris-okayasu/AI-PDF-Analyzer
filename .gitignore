@@ -1,0 +1,48 @@
+# Python bytecode and build artifacts
+__pycache__/
+*.py[oc]
+*.pyo
+*.pyd
+*.so
+build/
+dist/
+wheels/
+*.egg-info/
+
+# Virtual environments
+.venv/
+venv/
+.envrc
+
+# Environment & secrets
+.env
+.env.*
+*.key
+*.pem
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Editor & IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Qdrant local storage
+qdrant_storage/
+
+# Logs
+logs/
+*.log
+
+# Python tooling / coverage
+.mypy_cache/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Ollama / temp data (if any)
+*.tmp
+*.temp
