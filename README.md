@@ -79,10 +79,10 @@ pip install "llama-index-core" "llama-index-readers-file"
 pip install inngest
 ```
 
-Optionally, install from `requirements.txt` if available:
+Optionally, install from `requirements.txt` :
 
 ```bash
-pip install -r requirements.txt
+pip install -r r.txt
 ```
 
 ---
